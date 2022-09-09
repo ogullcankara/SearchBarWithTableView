@@ -96,9 +96,6 @@ extension ViewController:UISearchBarDelegate{
         
         //print("Cancel Clicked")
         //searchBar.text = self.searchTerms
-       
-        tableView.reloadData()
-        
     }
     
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
